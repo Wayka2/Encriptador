@@ -1,0 +1,101 @@
+* {
+    background: #e9eadb;
+    font-family:"Oswald";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.logo {
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 180px;
+}
+
+.text-area {
+    border: none;
+    color: #0b0007; 
+    margin-top: 90px;
+    text-transform: lowercase;
+
+}
+.placeholder {
+    color: #080808;
+}
+    .text-area: focus{
+        outline: none:
+    }
+
+ 
+.mensaje {
+    background: #eac7e1;
+   //* background-image: url("/C:/Users/thebl/.vscode/Encriptador/Imagenes/cordero.png");*//
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 14px;
+    color: #0b1703;
+    margin-left: 80px;
+    margin-top: 20px;
+    padding-left: 20;
+    position: fixed;
+
+}
+
+.mensaje-focus {
+    outline: none;
+}
+
+.botones {
+    display: flex;
+    margin-top: 18px;
+
+}
+
+.btn-desencriptar {
+    background: rgb(103, 226, 144);
+    border: 1px solid #0d0d0e;
+    border-radius: 14px;
+    color: #0d0d0e;
+    cursor: pointer;
+    height: 30px;
+    margin-left: 10px;
+    width: 200px;
+
+}
+.btn-encriptar{
+    background-color: aqua;
+    border: 1px solid #0d0d0e;
+    border-radius: 14px;
+    color: #0d0d0e;
+    cursor: pointer;
+    height: 30px;
+    margin-left: 5px;
+    width: 200px;
+
+}
+
+.copiar{
+    background-color: rgb(255, 170, 0);
+    border: 1px solid #060607;
+    border-radius: 14px;
+    color: #01010b;
+    cursor: pointer;
+    height: 30px;
+    margin-left: 80px;
+    margin-top: 325px;
+    position: absolute;
+    width: 150px;
+}
+.informacion{
+    color: #585758;
+    font-size: 5px;
+}
+
